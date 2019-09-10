@@ -36,7 +36,7 @@ public class SymbolsReplacer implements WordTransformer {
         for (Map.Entry<String, String> pair: map.entrySet()){
             resultWord = resultWord.replaceAll(pair.getKey(), pair.getValue());
         }
-        resultWord = dublicateCharRemover.removeDublicates(resultWord);
+        resultWord = dublicateCharRemover.removeDublicates(resultWord).trim();
         return resultWord;
     }
 }

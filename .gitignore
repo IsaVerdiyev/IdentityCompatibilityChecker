@@ -60,6 +60,9 @@ atlassian-ide-plugin.xml
 # Cursive Clojure plugin
 .idea/replstate.xml
 
+# target
+/target/**
+
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
@@ -89,3 +92,4 @@ modules.xml
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/intellij+all
+

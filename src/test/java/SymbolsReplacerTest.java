@@ -90,4 +90,15 @@ public class SymbolsReplacerTest {
 
         assertEquals(output1, output2);
     }
+
+
+    @Test
+    public void recieveTransformedWordTest8(){
+        String input1 = "Abasova Minara -----";
+        String input2 = "Abasova Minara ";
+        String output1 = autoWiredSymbolsReplacer.recieveTransformedWord(input1);
+        String output2 = autoWiredSymbolsReplacer.recieveTransformedWord(input2);
+
+        assertEquals(output1, output2);
+    }
 }
